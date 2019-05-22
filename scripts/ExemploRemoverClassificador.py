@@ -1,5 +1,5 @@
 import json
-from watson_developer_cloud import NaturalLanguageClassifierV1
+from ibm_watson import NaturalLanguageClassifierV1
 
 natural_language_classifier = NaturalLanguageClassifierV1(
     iam_apikey='{apikey}',
